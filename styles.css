@@ -1,0 +1,90 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color:#def69d;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+body{
+    margin: 0px;
+    /* modify background color here*/
+    background-color:#6bd6d6;
+    
+}
+
+.body_title{
+    text-align: center;
+    color: rgb(82, 6, 117);
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.header_img{
+    opacity: 0.5;
+}
+
+.description{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(239, 206, 206);
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    font-weight: 40px;
+    top:10%;
+    -webkit-text-stroke:2px black;
+}
+
+a:visited{
+    color: rgb(255, 0, 0);
+}
+
+.header_title{
+    color: rgb(43, 85, 223);
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.links a{
+    text-decoration: none;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.links{
+    margin-top: 20px;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+    font-family: sans-serif;
+    
+}
+.grid img{
+    border: 2px solid #000000;
+    border-radius: 50px;
+}
+
+.origami {
+    border-radius: 20px;
+    background-color: #ffffff;
+    /* modify margin and padding here*/
+    padding: 30px;
+    margin: 25px;
+    width:310px;
+    font-family: fantasy;   
+}
+
+.origami:hover{
+    /*width:330px;   
+    height:450px*/
+    transform: scale(1.2);
+}
+
+
